@@ -1,2 +1,0 @@
-# relativistic_quantum_equation2
-相对论性量子力学方程求解
