@@ -3,10 +3,12 @@ import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 
 # Parameters
-L = 1.0                # Length of the domain (cube side)
+# 方程形式如下：
+# ∂4u∂t4−∇4u−∂2∂t2∇2u=0
+L = 6                # Length of the domain (cube side)
 N = 50                 # Number of spatial grid points per dimension
-T = 0.1                # Final time
-dt = 1e-4              # Time step size
+T = 5               # Final time
+dt = 1e-3              # Time step size
 alpha = 1              # Coefficient for mixed derivative term
 steps = int(T / dt)    # Number of time steps
 
